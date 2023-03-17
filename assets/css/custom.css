@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica' sans-serif;
+}
+
+html,body{
+    scroll-behavior: smooth !important;
+    background-color: var(--background);
+    }
+    
+    html::-webkit-scrollbar{
+    display:none;
+    }
+
+:root{
+    --background: #CCD5AE;
+    --forms: #FEFAE0;
+    --buttons: #C8B6A6;
+    --active: #FAEDCD;
+    --subcolor: #E9EDC9;
+}
+form{
+    background-color: var(--forms);
+}
+.custom-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--background);
+}
+
+.active{
+    background-color: var(--active) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.hover{
+    background-color: var(--active) !important;
+}
+
+.content-wrapper{
+    margin-top: 5rem;
+}
+
+
+
+/* FOR DESKTOP VIEW */
+@media (min-width:992px){
+    .navbar{
+        min-height: 100vh;
+        width: 240px !important;
+      }
+    .flex-lg-column{
+        min-height: 100vh;
+        margin-top: 5rem;
+        background-color: var(--subcolor);
+        position: relative;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top:0 !important; 
+    }
+    .navbar-brand{
+        /* display: block !important; */
+        position: absolute !important;
+        top: -3.8rem;
+    }
+    #navbarContent{
+        width: 100%;
+        text-align: start;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-nav{
+        display: flex;
+        gap: 1rem;
+        padding-top: 1rem;
+        margin: 0 !important;
+        text-align: center;
+        width: 100%;
+    }   
+
+    .content-wrapper{
+        padding-left: 240px;
+        min-height: 100%;
+        height: 100%;
+        margin-top: 5.5rem;
+    }
+}
