@@ -12,80 +12,74 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-lg flex-lg-column">
-        <a href="#" class="navbar-brand">LOGO</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarContent" >
+    <div class="container-lg flex-lg-column px-lg-5">
+        <a class="navbar-brand" href="#">Place your logo Here</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-lg-column fw-semibold">
-                <li class="nav-item">
-                    <a href="dashboard.html" class="nav-link active">
-                        Dashboard
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="classSubject.html" class="nav-link">
-                        Class Subject
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="student.html" class="nav-link">
-                        Students
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="settings.html" class="nav-link">
-                        Settings
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="logout.html" class="nav-link">
-                        Logout
-                    </a>
-                </li>
-            </ul>
-        </div>
+    
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav me auto mb-2 mg-lg-0 text-center">
+            <li class="nav-item w-100">
+                <a href="dashboard.html" class="nav-link active">Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a href="classSubject.html" class="nav-link">Class Subject</a>
+            </li>
+            <li class="nav-item">
+                <a href="students.html" class="nav-link">Students</a>
+            </li>
+            <li class="nav-item">
+                <a href="settings.html" class="nav-link">Settings</a>
+            </li>
+            <li class="nav-item">
+                <a href="logout.html" class="nav-link">Logout</a>
+            </li>
+        </ul>
     </div>
+</div>
 </nav>
-
-<div class="content-wrapper">
-    <div class="row mx-5 p-2 rounded justify-content-center text-center" style="background-color: var(--subcolor);">
-        <h5 class="p-0 m-0">Hello Professor Jlad!</h5>
-    </div>
-    <div class="row justify-content-center mt-3">
-        <div class="col-lg-11 text-center">
-            <table class="table fw-light">
-                <thead style="background-color: #FEFAE0;">
-                    <tr>
-                        <th scope="col" style="border-top-left-radius: 10px;">Monday</th>
-                        <th scope="col">Tuesday</th>
-                        <th scope="col">Wednesday</th>
-                        <th scope="col">Thursday</th>
-                        <th scope="col">Friday</th>
-                        <th scope="col" style="border-top-right-radius: 10px;">Saturday</th>
-                    </tr>
-                </thead>
-                <tbody class="bg-white">
-                    <tr>
-                        
-                        <td style="border-bottom-left-radius: 10px;"><a href="dashboard.html" class="nav-link">math <small class="d-block">3:00PM-4:00PM</small></a></td>
-                        <td><a href="#" class="nav-link"> math <small class="d-block">3:00PM-4:00PM</small></a></td>
-                        <td><a href="#" class="nav-link"> math <small class="d-block">3:00PM-4:00PM</small></a></td>
-                        <td><a href="#" class="nav-link">math <small class="d-block">3:00PM-4:00PM</small></a></td>
-                        <td><a href="#" class="nav-link">math<small class="d-block">3:00PM-4:00PM</small></a></td>
-                        <td style="border-bottom-right-radius: 10px;"><a href="#" class="nav-link">math <small class="d-block">3:00PM-4:00PM</small></a></td>
-                    </tr>
-                </tbody>
-            </table>
+<div id="content-wrapper">
+    <div class="container-lg section">
+        <div class="row justify-content-center text-center mx-4 rounded" style="background-color: #E9EDC9;">
+            <div class="col-lg-10 d-flex justify-content-center">
+                <p class="m-0 p-1 fs-5">Hello Professor <strong>Jlad!</strong></p>
+            </div>
+        </div>
+        <div class="row mt-3 justify-content-around text-center px-0">
+            <div class="col-lg-11 px-0">
+                <div class="table-responsive">
+                <table class="table">
+                    <thead style="background-color: #FEFAE0;">
+                        <tr>
+                            <th scope="col" style="border-top-left-radius: 10px;">Monday</th>
+                            <th scope="col">Tuesday</th>
+                            <th scope="col">Wednesday</th>
+                            <th scope="col">Thursday</th>
+                            <th scope="col">Friday</th>
+                            <th scope="col" style="border-top-right-radius: 10px;">Saturday</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white">
+                        <tr>
+                            <td><a href="#" class="nav-link">Math<small class="d-block">3:00PM-4:00PM</small></a></td>
+                            <td><a href="#" class="nav-link">Capstone<small class="d-block">3:00PM-4:00PM</small></a></td>
+                            <td><a href="#" class="nav-link">Platform Technologies 2<small class="d-block">3:00PM-4:00PM</small></a></td>
+                            <td><a href="#" class="nav-link">Statistics<small class="d-block">3:00PM-4:00PM</small></a></td>
+                            <td><a href="#" class="nav-link">Discrete Math<small class="d-block">3:00PM-4:00PM</small></a></td>
+                            <td><a href="#" class="nav-link">Panitikan<small class="d-block">3:00PM-4:00PM</small></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
         </div>
     </div>
 </div>
 
 
-
     <!-- START SCRIPTS -->
+    <script src="../assets/js/custom.js"></script>
     <script src="../assets/js/bootstrap.bundle.js"></script>
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/main.js"></script>
