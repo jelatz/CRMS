@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="../assets/css/custom.css">
     <link rel="stylesheet" href="../assets/css/aos.css">
     <link rel="stylesheet" href="../assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <title>Login Page</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid flex-lg-column mx-0 px-0">
-        <a class="navbar-brand ms-2 mt-lg-5" href="#">Place your logo Here</a>
+    <div class="container-lg flex-lg-column px-lg-5">
+        <a class="navbar-brand" href="dashboard.php">Place your logo Here</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,33 +22,34 @@
     <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav me auto mb-2 mg-lg-0 text-center">
             <li class="nav-item w-100">
-                <a href="dashboard.html" class="nav-link active">Dashboard</a>
+                <a href="dashboard.php" class="nav-link active">Dashboard</a>
             </li>
             <li class="nav-item">
-                <a href="classSubject.html" class="nav-link">Class Subject</a>
+                <a href="classSubject.php" class="nav-link">Class Subject</a>
             </li>
             <li class="nav-item">
-                <a href="students.html" class="nav-link">Students</a>
+                <a href="students.php" class="nav-link">Students</a>
             </li>
             <li class="nav-item">
-                <a href="settings.html" class="nav-link">Settings</a>
+                <a href="settings.php" class="nav-link">Settings</a>
             </li>
             <li class="nav-item">
-                <a href="logout.html" class="nav-link">Logout</a>
+                <a href="logout.php" class="nav-link">Logout</a>
             </li>
         </ul>
     </div>
 </div>
 </nav>
+
 <div id="content-wrapper">
-    <div class="container-lg section">
-        <div class="row justify-content-center text-center mx-4 rounded" style="background-color: #E9EDC9;">
-            <div class="col-lg-10 d-flex justify-content-center">
-                <p class="m-0 p-1">Hello Professor Jlad!</p>
+    <div class="container-xxxl px-2 section">
+        <div class="row justify-content-center text-center mx-4 rounded">
+            <div class="col-lg-8 d-flex justify-content-center rounded-2" style="background-color: #E9EDC9;">
+                <p class="m-0 p-1 fs-5">Hello Professor <strong>Jlad!</strong></p>
             </div>
         </div>
-        <div class="row mt-3 justify-content-around text-center">
-            <div class="col-lg-11">
+        <div class="row mt-4 justify-content-around text-center px-0">
+            <div class="col-lg-11 px-0">
                 <div class="table-responsive">
                 <table class="table">
                     <thead style="background-color: #FEFAE0;">
@@ -78,7 +80,9 @@
 </div>
 
 
+
     <!-- START SCRIPTS -->
+
     <script src="../assets/js/custom.js"></script>
     <script src="../assets/js/bootstrap.bundle.js"></script>
     <script src="../assets/js/aos.js"></script>

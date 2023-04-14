@@ -6,8 +6,6 @@
     $conn;
 
     function connect()
-
-    
     {
         global $hostname, $username, $password,  $db, $conn;
         $conn = mysqli_connect($hostname, $username, $password, $db);
